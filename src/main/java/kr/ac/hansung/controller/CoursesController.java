@@ -71,11 +71,11 @@ public class CoursesController {
 		return "home";
 	}
 	
-	@RequestMapping("/signupInfo")
+	@RequestMapping("/signupinfo")
 	public String showSignupClassInfo(Model model){
 		List<Course> signupCourse = coursesService.getCurrent();
 		model.addAttribute("signupCourse",signupCourse);
-		return "signupInfo";
+		return "signupinfo";
 	}
 
 }
