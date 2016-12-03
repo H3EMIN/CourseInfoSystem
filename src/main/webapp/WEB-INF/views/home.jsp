@@ -28,7 +28,7 @@
 			<td><a href = "${pageContext.request.contextPath}/signup"> 수강 신청하기</a></td>
 		</tr>
 		<tr>
-			<td><a href = "${pageContext.request.contextPath}/signupInfo"> 수강 신청 조회</a></td>
+			<td><a href = "${pageContext.request.contextPath}/signupinfo"> 수강 신청 조회</a></td>
 		</tr>
 			
 
